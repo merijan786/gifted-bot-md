@@ -9,7 +9,7 @@ global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="admin@giftedtechnexus.co.ke"
 global.location="Eldoret,Kenya."
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= process.env.MONGODB_URI || "https://files.catbox.moe/nw8gqn.jpg"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.DATABASE_URI = process.env.DATABASE_URL || ""
@@ -49,7 +49,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "true"
+global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "254728782591,923xxxxxxxx";
@@ -66,12 +66,12 @@ module.exports = {
   VERSION : process.env.VERSION || "V.1.2.8",
   caption : process.env.CAPTION || "©²⁰²⁴ ɢɪғᴛᴇᴅ ʙᴏᴛ ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢɪғᴛᴇᴅ ᴛᴇᴄʜ 』```", //*『sᴜʙsᴄʀɪʙᴇ • ɢɪғᴛᴇᴅ ᴛᴇᴄʜ』*\n https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o"),
  
-  author : process.env.PACK_AUTHER|| "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
+  author : process.env.PACK_AUTHER|| "SHAHID KING",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
-  ownername:process.env.OWNER_NAME|| "It's GiftedTech",
+  botname : process.env.BOT_NAME  || "SHAHID KING",
+  ownername:process.env.OWNER_NAME|| "SHAHID KING",
 
-  sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
+  sessionName:process.env.SESSION_ID || "Gifted~DRA07kDLjo4QRx8HJXVw",  // PUT SESSION ID HERE 
   errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
 
